@@ -212,7 +212,9 @@ header{
 }
 
 .about__left-content {
-    background-color: rgba(225, 214, 214, 0.821);
+    /* background-color: rgba(225, 214, 214, 0.821); */
+    /* background-color: lightyellow; */
+    background-color: white;
     padding: 1rem;
     border-radius: 6px;
 }
@@ -246,13 +248,13 @@ header{
 .values__subr {
     width: 3rem;
     height: 0.5rem;
-    background-color: #f75842;
+    background-color: var(--color-danger);
 }
 
 /* ============== Servicios ============== */
 
 .category{
-    background: var(--color-bg2);
+    background: var(--color-bg);
     padding: 2rem;
     border-radius: 2rem;
     transition: var(--transition);
@@ -271,14 +273,19 @@ header{
     justify-content: center;
 }
 
-.content {
+.coll-content {
     display: none;
     overflow: hidden;
+}
+
+.btShowMore {
+    background-color: var(--color-bg);
 }
 
 .uil-angle-double-down {
     font-size: 3rem;
     font-weight: 100;
+    color: antiquewhite;
 }
 
 .servicesNumber {
@@ -304,7 +311,8 @@ header{
 }
 
 .category:hover{
-    box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3);
+    /* box-shadow: 0 3rem 3rem rgba(0, 0, 0, 0.3); */
+    box-shadow: 0 3rem 3rem rgba(92, 89, 89, 0.3);
     z-index: 1;
 }
 
@@ -318,7 +326,11 @@ header{
     margin: 2rem 0 1rem;
 }
 
-.category p{
+.category p {
+    font-size: 0.85rem;
+}
+
+.panel p {
     font-size: 0.85rem;
 }
 
@@ -326,6 +338,9 @@ header{
     padding-top: 1rem;
 }
 
+.coll-header {
+    cursor: pointer;
+}
 
 /* ============== Popular Courses ============== */
 
@@ -454,7 +469,7 @@ header{
 /* ============== Footer ============== */
 
 footer{
-    background: var(--color-bg1);
+    background: var(--color-bg);
     /* padding-top: 5rem; */
     font-size: 0.9rem;
 }
