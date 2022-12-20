@@ -3,7 +3,8 @@
 }
 
 .contact__container{
-	background: var(--color-bg1);
+	/* background: var(--color-bg1); */
+	background: #2E2A2B;
 	padding: 4rem;
 	display: grid;
 	grid-template-columns: 40% 60%;
@@ -17,15 +18,21 @@
 /* ================ Aside ================ */
 .contact__aside{
 	/* background: var(--color-primary); */
-	background: var(--color-bg);
+	/* background: var(--color-bg); */
+	background: black;
+	/* background-image: url("./images/bg-texture.png"); */
 	padding: 3rem;
 	border-radius: 1rem;
 	position: relative;
 	bottom: 10rem;
 }
 
+#contactImg {
+	border-radius: .5rem;
+}
+
 .aside__image{
-	width: 12rem;
+	max-width: 18rem;
 	margin-bottom: 2rem;
 }
 
@@ -53,7 +60,8 @@
 }
 
 .contact__socials a{
-	background: var(--color-bg2);
+	/* background: var(--color-bg2); */
+	background: #4A4B45 ;
 	padding: 0.5rem;
 	border-radius: 50%;
 	font-size: 0.9rem;
@@ -61,7 +69,8 @@
 }
 
 .contact__socials a:hover{
-	background: transparent;
+	/* background: transparent; */
+	background: var(--color-bg);
 }
 
 
@@ -85,7 +94,8 @@
 input, textarea{
 	width: 100%;
 	padding: 1rem;
-	background: var(--color-bg);
+	/* background: var(--color-bg); */
+	background: black;
 	color: var(--color-white);
 }
 

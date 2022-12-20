@@ -31,7 +31,8 @@
 	font-family: inherit;
 	font-size: 1.2rem;
 	/* border-radius: 5px; */
-	background-color: var(--color-bg);
+	/* background-color: var(--color-bg); */
+	background-color: #2E2A2B;
   }
   
   button.active, .accordion:hover {
